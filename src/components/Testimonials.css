@@ -1,0 +1,38 @@
+.testimonials {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 30px; /* Increased spacing below the heading */
+  color: #333;
+  font-family: 'Arial', sans-serif; /* Added font-family for better readability */
+}
+
+.testimonials p {
+  font-size: 18px;
+  line-height: 1.8; /* Increased line-height for better readability */
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 20px; /* Added spacing below each paragraph */
+  font-style: italic;
+  padding: 15px; /* Added padding inside each paragraph for better separation */
+  border-left: 4px solid #ddd; /* Added border for a more distinct look */
+  background-color: #f9f9f9; /* Light background color for better contrast */
+  border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+@media (max-width: 768px) {
+  .testimonials h2 {
+      font-size: 28px;
+      margin-bottom: 20px; /* Adjusted spacing for smaller screens */
+  }
+
+  .testimonials p {
+      font-size: 16px;
+      margin: 0 auto 15px; /* Adjusted spacing for smaller screens */
+      padding: 10px; /* Adjusted padding for smaller screens */
+  }
+}

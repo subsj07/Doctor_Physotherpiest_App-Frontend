@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+}

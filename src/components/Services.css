@@ -1,0 +1,38 @@
+.services {
+  display: flex;
+  flex-direction: column; /* Aligns content in a column */
+  align-items: center; /* Centers the h2 horizontally */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Adds space below the heading */
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Increased gap between service boxes */
+  justify-content: space-between;
+}
+
+.service {
+  flex: 1 1 calc(25% - 40px); /* Smaller box size, 4 items per row */
+  padding: 15px; /* Reduced padding */
+  margin: 10px; /* Adds margin around the service boxes */
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+@media (max-width: 768px) {
+  .service {
+    flex: 1 1 calc(45% - 20px); /* 2 items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .service {
+    flex: 1 1 calc(100% - 20px); /* 1 item per row on very small screens */
+  }
+}
